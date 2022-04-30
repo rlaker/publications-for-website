@@ -1,18 +1,53 @@
-pre {
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+.custombutton{
+    border-radius: 8px;
+    font-size: 12px;
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height: 12px;
+    border: 2px solid black;
+}
+/* pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+    font-size: 14px;
+}
+   */
+.buttonpdf {
+  background-color: white; 
+  color: #f44336; 
+  border: 2px solid #f44336;
+}
+
+.buttonpdf:hover {
+  background-color: #f44336;
+  color: white;
+}
+  
+.buttondoi {
+  background-color: rgb(17, 175, 30); 
+  color: white;
+}
+
+.buttondoi:hover {
+  background-color: black;
+  color: white;
 }
 
 .publicationlist {
     margin: 0px;
 }
-.publicationlist tr {
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+
+td {
+    padding-bottom: 1em;
 }
+
 .publicationlist .title {
     /* font-variant: small-caps; */
     font-size: 1.0em;
@@ -35,21 +70,32 @@ pre {
     */
 }
 
-.publicationlist .title a {
-    /* font-weight: bold; */
+.publicationlist .shortAuthors {
+    display: block;
+    /*
+    transform: scaleY(0);
+    transition: all 0.25s ease-in;
+    overflow: hidden;
+    */
 }
 
-.publicationlist tr {
-    background-color: transparent;
-    -webkit-transition: all 1s linear;
+.publicationlist .longAuthors {
+    display: none;
+    /*
+    transform: scaleY(1);
+    transition: all 0.25s ease-in;
+    */
 }
 
-.publicationlist tr:target {
-    background-color: #ffa;
-    -webkit-transition: all 1s linear;
+.footnotecomment {
+    font-size: 0.5em;
 }
 
-.publicationlist .footnotecomment {
-    font-size: 0.8em;
-    text-align: right;
-}
+/* make links have no underline */
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
