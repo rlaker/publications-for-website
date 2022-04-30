@@ -1,0 +1,386 @@
+<div class="publicationlist">
+<style>pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.publicationlist {
+    margin: 0px;
+}
+.publicationlist tr {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.publicationlist .title {
+    /* font-variant: small-caps; */
+    font-size: 1.0em;
+}
+
+.publicationlist .bibhidden {
+    display: none;
+    /*
+    transform: scaleY(0);
+    transition: all 0.25s ease-in;
+    overflow: hidden;
+    */
+}
+
+.publicationlist .bibvisible {
+    display: block;
+    /*
+    transform: scaleY(1);
+    transition: all 0.25s ease-in;
+    */
+}
+
+.publicationlist .title a {
+    /* font-weight: bold; */
+}
+
+.publicationlist tr {
+    background-color: transparent;
+    -webkit-transition: all 1s linear;
+}
+
+.publicationlist tr:target {
+    background-color: #ffa;
+    -webkit-transition: all 1s linear;
+}
+
+.publicationlist .footnotecomment {
+    font-size: 0.8em;
+    text-align: right;
+}</style>
+<script>function showBibHere(biblink) {
+    var element = biblink;
+    while (element.nodeName.toUpperCase() != 'TR') {
+        element = element.parentNode;
+    }
+    var bibsources = element.getElementsByTagName('pre');
+    for (var i = 0; i < bibsources.length; i++) {
+        var pre = bibsources[i];
+        if (pre.classList.contains("bibhidden")) {
+            pre.classList.remove("bibhidden")
+            pre.classList.add("bibvisible")
+        } else {
+            pre.classList.add("bibhidden")
+            pre.classList.remove("bibvisible")
+        }
+    }
+}</script>
+<h3>2021</h3>
+<table cellspacing="0" class="yeartable">
+
+            <tr id="Bale2021">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Bale2021">10</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">A Solar Source of Alfvénic Magnetic Field Switchbacks: In Situ Remnants of Magnetic Funnels on Supergranulation Scales</a></span>
+     (<span class="authors">S D Bale, T S Horbury, M Velli, M I Desai, J S Halekas, M D McManus, O Panasenco, S T Badman, T A Bowen, B D G Chandran, J F Drake, J C Kasper, R Laker, A Mallet, L Matteini, T D Phan, N E Raouafi, J Squire, L D Woodham, T Woolley</span>)
+     <span class="venueline">In: <span class="journal"><i>The Astrophysical Journal</i>, 923, pp. 174</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.3847/1538-4357/ac2d8c">DOI: 10.3847/1538-4357/ac2d8c</a>
+     </span>
+     <pre class="bibhidden">
+@article{Bale2021,
+  title        = {A {{Solar Source}} of {{Alfv\'enic Magnetic Field Switchbacks}}: {{In Situ Remnants}} of {{Magnetic Funnels}} on {{Supergranulation Scales}}},
+  author       = {Bale, S D and Horbury, T S and Velli, M and Desai, M I and Halekas, J S and McManus, M D and Panasenco, O and Badman, S T and Bowen, T A and Chandran, B D G and Drake, J F and Kasper, J C and Laker, R and Mallet, A and Matteini, L and Phan, T D and Raouafi, N E and Squire, J and Woodham, L D and Woolley, T},
+  year         = 2021,
+  month        = {December},
+  journal      = {The Astrophysical Journal},
+  volume       = 923,
+  number       = 2,
+  pages        = 174,
+  publisher    = {{American Astronomical Society}},
+  doi          = {10.3847/1538-4357/ac2d8c},
+  abstract     = {One of the striking observations from the Parker Solar Probe (PSP) spacecraft is the prevalence in the inner heliosphere of large amplitude, Alfv\'enic magnetic field reversals termed switchbacks. These ) fluctuations occur over a range of timescales and in patches separated by intervals of quiet, radial magnetic field. We use measurements from PSP to demonstrate that patches of switchbacks are localized within the extensions of plasma structures originating at the base of the corona. These structures are characterized by an increase in alpha particle abundance, Mach number, plasma {$\beta$} and pressure, and by depletions in the magnetic field magnitude and electron temperature. These intervals are in pressure balance, implying stationary spatial structure, and the field depressions are consistent with overexpanded flux tubes. The structures are asymmetric in Carrington longitude with a steeper leading edge and a small ({$\sim$}1\textdegree ) edge of hotter plasma and enhanced magnetic field fluctuations. Some structures contain suprathermal ions to {$\sim$}85 keV that we argue are the energetic tail of the solar wind alpha population. The structures are separated in longitude by angular scales associated with supergranulation. This suggests that these switchbacks originate near the leading edge of the diverging magnetic field funnels associated with the network magnetic field\textemdash the primary wind sources. We propose an origin of the magnetic field switchbacks, hot plasma and suprathermals, alpha particles in interchange reconnection events just above the solar transition region and our measurements represent the extended regions of a turbulent outflow exhaust.},
+  keywords     = {ObsCite},
+  annotation   = {2 citations (Crossref) [2022-03-09] 0 citations (Semantic Scholar/DOI) [2022-02-23]},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Telloni2021b">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Telloni2021b">9</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Study of Two Interacting Interplanetary Coronal Mass Ejections Encountered by Solar Orbiter during Its First Perihelion Passage - Observations and Modeling</a></span>
+     (<span class="authors">D. Telloni, C. Scolini, C. Möstl, G. P. Zank, L.-L. Zhao, A. J. Weiss, M. A. Reiss, R. Laker, D. Perrone, Y. Khotyaintsev, K. Steinvall, L. Sorriso-Valvo, T. S. Horbury, R. F. Wimmer-Schweingruber, R. Bruno, R. D'Amicis, R. De Marco, V. K. Jagarlamudi, F. Carbone, R. Marino, M. Stangalini, M. Nakanotani, L. Adhikari, H. Liang, L. D. Woodham, E. E. Davies, H. Hietala, S. Perri, R. Gómez-Herrero, J. Rodríguez-Pacheco, E. Antonucci, M. Romoli, S. Fineschi, M. Maksimovic, J. Souček, T. Chust, M. Kretzschmar, A. Vecchio, D. Müller, I. Zouganelis, R. M. Winslow, S. Giordano, S. Mancuso, R. Susino, S. L. Ivanovski, M. Messerotti, H. O'Brien, V. Evans, V. Angelini</span>)
+     <span class="venueline">In: <span class="journal"><i>Astronomy & Astrophysics</i>, 656, pp. A5</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1051/0004-6361/202140648">DOI: 10.1051/0004-6361/202140648</a>
+     </span>
+     <pre class="bibhidden">
+@article{Telloni2021b,
+  title        = {Study of Two Interacting Interplanetary Coronal Mass Ejections Encountered by {{Solar Orbiter}} during Its First Perihelion Passage - {{Observations}} and Modeling},
+  author       = {Telloni, D. and Scolini, C. and M{\"o}stl, C. and Zank, G. P. and Zhao, L.-L. and Weiss, A. J. and Reiss, M. A. and Laker, R. and Perrone, D. and Khotyaintsev, Y. and Steinvall, K. and {Sorriso-Valvo}, L. and Horbury, T. S. and {Wimmer-Schweingruber}, R. F. and Bruno, R. and D'Amicis, R. and Marco, R. De and Jagarlamudi, V. K. and Carbone, F. and Marino, R. and Stangalini, M. and Nakanotani, M. and Adhikari, L. and Liang, H. and Woodham, L. D. and Davies, E. E. and Hietala, H. and Perri, S. and {G{\'o}mez-Herrero}, R. and {Rodr{\'i}guez-Pacheco}, J. and Antonucci, E. and Romoli, M. and Fineschi, S. and Maksimovic, M. and Sou{\v c}ek, J. and Chust, T. and Kretzschmar, M. and Vecchio, A. and M{\"u}ller, D. and Zouganelis, I. and Winslow, R. M. and Giordano, S. and Mancuso, S. and Susino, R. and Ivanovski, S. L. and Messerotti, M. and O'Brien, H. and Evans, V. and Angelini, V.},
+  year         = 2021,
+  month        = {December},
+  journal      = {Astronomy \& Astrophysics},
+  volume       = 656,
+  pages        = {A5},
+  publisher    = {{EDP Sciences}},
+  issn         = {0004-6361, 1432-0746},
+  doi          = {10.1051/0004-6361/202140648},
+  abstract     = {\emph{Context.{$&lt;$}i/{$&gt;$} Solar Orbiter, the new-generation mission dedicated to solar and heliospheric exploration, was successfully launched on February 10, 2020, 04:03 UTC from Cape Canaveral. During its first perihelion passage in June 2020, two successive interplanetary coronal mass ejections (ICMEs), propagating along the heliospheric current sheet (HCS), impacted the spacecraft.\emph{Aims.{$&lt;$}i/{$&gt;$} This paper addresses the investigation of the ICMEs encountered by Solar Orbiter on June 7-8, 2020, from both an observational and a modeling perspective. The aim is to provide a full description of those events, their mutual interaction, and their coupling with the ambient solar wind and the HCS.\emph{Methods.{$&lt;$}i/{$&gt;$} Data acquired by the MAG magnetometer, the Energetic Particle Detector suite, and the Radio and Plasma Waves instrument are used to provide information on the ICMEs' magnetic topology configuration, their magnetic connectivity to the Sun, and insights into the heliospheric plasma environment where they travel, respectively. On the modeling side, the Heliospheric Upwind eXtrapolation model, the 3D COronal Rope Ejection technique, and the EUropean Heliospheric FORecasting Information Asset (EUHFORIA) tool are used to complement Solar Orbiter observations of the ambient solar wind and ICMEs, and to simulate the evolution and interaction of the ejecta in the inner heliosphere, respectively.\emph{Results.{$&lt;$}i/{$&gt;$} Both data analysis and numerical simulations indicate that the passage of two distinct, dynamically and magnetically interacting (via magnetic reconnection processes) ICMEs at Solar Orbiter is a possible scenario, supported by the numerous similarities between EUHFORIA time series at Solar Orbiter and Solar Orbiter data.\emph{Conclusions.{$&lt;$}i/{$&gt;$} The combination of in situ measurements and numerical simulations (together with remote sensing observations of the corona and inner heliosphere) will significantly lead to a deeper understanding of the physical processes occurring during the CME-CME interaction.}}}}}},
+  copyright    = {\textcopyright{} ESO 2021},
+  langid       = {english},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\Q5R7ACQW\\Telloni et al_2021_Study of two interacting interplanetary coronal mass ejections encountered by.pdf;C\:\\Users\\Ronan\\Zotero\\storage\\P3JJ5Q8S\\aa40648-21.html},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Laker2021">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Laker2021">8</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Statistical Analysis of Orientation, Shape, and Size of Solar Wind Switchbacks</a></span>
+     (<span class="authors">R. Laker, T. S. Horbury, S. D. Bale, L. Matteini, T. Woolley, L. D. Woodham, S. T. Badman, M. Pulupa, J. C. Kasper, M. Stevens, A. W. Case, K. E. Korreck</span>)
+     <span class="venueline">In: <span class="journal"><i>Astronomy & Astrophysics</i></span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1051/0004-6361/202039354">DOI: 10.1051/0004-6361/202039354</a>
+     </span>
+     <pre class="bibhidden">
+@article{Laker2021,
+  title        = {Statistical Analysis of Orientation, Shape, and Size of Solar Wind Switchbacks},
+  author       = {Laker, R. and Horbury, T. S. and Bale, S. D. and Matteini, L. and Woolley, T. and Woodham, L. D. and Badman, S. T. and Pulupa, M. and Kasper, J. C. and Stevens, M. and Case, A. W. and Korreck, K. E.},
+  year         = 2021,
+  journal      = {Astronomy \& Astrophysics},
+  doi          = {10.1051/0004-6361/202039354},
+  abstract     = {One of the main discoveries from the first two orbits of Parker Solar Probe (PSP) was the presence of magnetic switchbacks, whose deflections dominated the magnetic field measurements. Determining their shape and size could provide evidence of their origin, which is still unclear. Previous work with a single solar wind stream has indicated that these are long, thin structures although the direction of their major axis could not be determined. We investigate if this long, thin nature extends to other solar wind streams, while determining the direction along which the switchbacks within a stream were aligned. We try to understand how the size and orientation of the switchbacks, along with the flow velocity and spacecraft trajectory, combine to produce the observed structure durations for past and future orbits. We searched for the alignment direction that produced a combination of a spacecraft cutting direction and switchback duration that was most consistent with long, thin structures. The expected form of a long, thin structure was fitted to the results of the best alignment direction, which determined the width and aspect ratio of the switchbacks for that stream. The switchbacks had a mean width of \$50,000 \textbackslash, \textbackslash rmkm\$, with an aspect ratio of the order of \$10\$. We find that switchbacks are not aligned along the background flow direction, but instead aligned along the local Parker spiral, perhaps suggesting that they propagate along the magnetic field. Since the observed switchback duration depends on how the spacecraft cuts through the structure, the duration alone cannot be used to determine the size or influence of an individual event. For future PSP orbits, a larger spacecraft transverse component combined with more radially aligned switchbacks will lead to long duration switchbacks becoming less common.},
+  keywords     = {ObsCite,parker solar probe -,switchbacks},
+  annotation   = {15 citations (Crossref) [2022-03-15] 11 citations (Semantic Scholar/DOI) [2022-02-23] \_eprint: 2010.10211},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\FHVEM9FD\\Laker et al. - 2021 - Statistical analysis of orientation, shape, and size of solar wind switchbacks.pdf},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Laker2021a">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Laker2021a">7</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Multi-Spacecraft Study of the Solar Wind at Solar Minimum: Dependence on Latitude and Transient Outflows</a></span>
+     (<span class="authors">R Laker, T S Horbury, S D Bale, L Matteini, T Woolley, L D Woodham, J E Stawarz, E E Davies, J P Eastwood, M J Owens, H O'Brien, V Evans, V Angelini, I Richter, D Heyner, C J Owen, P Louarn, A Fedorov</span>)
+     <span class="venueline">In: <span class="journal"><i>A&A</i>, 652</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1051/0004-6361/202140679">DOI: 10.1051/0004-6361/202140679</a>
+     </span>
+     <pre class="bibhidden">
+@article{Laker2021a,
+  title        = {Multi-Spacecraft Study of the Solar Wind at Solar Minimum: {{Dependence}} on Latitude and Transient Outflows},
+  author       = {Laker, R and Horbury, T S and Bale, S D and Matteini, L and Woolley, T and Woodham, L D and Stawarz, J E and Davies, E E and Eastwood, J P and Owens, M J and O'Brien, H and Evans, V and Angelini, V and Richter, I and Heyner, D and Owen, C J and Louarn, P and Fedorov, A},
+  year         = 2021,
+  journal      = {A\&A},
+  volume       = 652,
+  doi          = {10.1051/0004-6361/202140679},
+  keywords     = {ObsCite},
+  annotation   = {4 citations (Crossref) [2022-04-29]},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Matteini2021">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Matteini2021">6</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Waves and Structures from Solar Orbiter's Encounter with the Tail of Comet C/2019 Y4 (ATLAS); Signatures from Magnetic Field Draping and Cometary Pick-up Ion Instabilities</a></span>
+     (<span class="authors">L. Matteini, R. Laker, L. D. Woodham, S. D. Bale, J. E. Stawarz, T. Woolley, K. Steinvall, G. H. Jones, S. R. Grant, Q. Afghan, H. O'Brien, V. Evans, V. Angelini, M. Maksimovic, T. Chust, Y. Khotyaintsev, V. Krasnoselskikh, M. Kretzschmar, E. Lorfevre, D. Plettemeier, J. Soucek, M. Steller, S. Stverak, P. Travnicek, Vaivads, A., A. Vecchio, R. F. Wimmer-Schweingruber, G. C. Ho, R. Gomez-Herrero, J. Rodriguez-Pacheco, P. Louarn, A. Fedorov, C. J. Owen, R. Bruno, S. Livi, I. Zouganelis, D. Muller</span>)
+     <span class="venueline">In: <span class="journal"><i>Astronomy & Astrophysics</i></span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+     
+     </span>
+     <pre class="bibhidden">
+@article{Matteini2021,
+  title        = {Waves and Structures from {{Solar Orbiter}}'s Encounter with the Tail of Comet {{C}}/2019 {{Y4}} ({{ATLAS}}); Signatures from Magnetic Field Draping and Cometary Pick-up Ion Instabilities},
+  author       = {Matteini, L. and Laker, R. and Woodham, L. D. and Bale, S. D. and Stawarz, J. E. and Woolley, T. and Steinvall, K. and Jones, G. H. and Grant, S. R. and Afghan, Q. and O'Brien, H. and Evans, V. and Angelini, V. and Maksimovic, M. and Chust, T. and Khotyaintsev, Y. and Krasnoselskikh, V. and Kretzschmar, M. and Lorfevre, E. and Plettemeier, D. and Soucek, J. and Steller, M. and Stverak, S. and Travnicek, P. and {Vaivads, A.} and Vecchio, A. and {Wimmer-Schweingruber}, R. F. and Ho, G. C. and {Gomez-Herrero}, R. and {Rodriguez-Pacheco}, J. and Louarn, P. and Fedorov, A. and Owen, C. J. and Bruno, R. and Livi, S. and Zouganelis, I. and Muller, D.},
+  year         = 2021,
+  journal      = {Astronomy \& Astrophysics},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Telloni2021a">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Telloni2021a">5</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Evolution of Solar Wind Turbulence from 0.1 to 1 Au during the First Parker Solar Probe-Solar Orbiter Radial Alignment</a></span>
+     (<span class="authors">Daniele Telloni, Luca Sorriso-Valvo, Lloyd D Woodham, Olga Panasenco, Marco Velli, Francesco Carbone, Gary P Zank, Roberto Bruno, Denise Perrone, Masaru Nakanotani, Chen Shi, Raffaella D'Amicis, Rossana De Marco, Vamsee K Jagarlamudi, Konrad Steinvall, Raffaele Marino, Laxman Adhikari, Lingling Zhao, Haoming Liang, Anna Tenerani, Ronan Laker, Timothy S Horbury, Stuart D Bale, Marc Pulupa, David M Malaspina, Robert J MacDowall, Keith Goetz, Thierry Dudok de Wit, Peter R Harvey, Justin C Kasper, Kelly E Korreck, Davin Larson, Anthony W Case, Michael L Stevens, Phyllis Whittlesey, Roberto Livi, Christopher J Owen, Stefano Livi, Philippe Louarn, Ester Antonucci, Marco Romoli, Helen O'Brien, Vincent Evans, Virginia Angelini</span>)
+     <span class="venueline">In: <span class="journal"><i>The Astrophysical Journal Letters</i>, 912, pp. L21</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.3847/2041-8213/abf7d1">DOI: 10.3847/2041-8213/abf7d1</a>
+     </span>
+     <pre class="bibhidden">
+@article{Telloni2021a,
+  title        = {Evolution of {{Solar Wind Turbulence}} from 0.1 to 1 Au during the {{First Parker Solar Probe-Solar Orbiter Radial Alignment}}},
+  author       = {Telloni, Daniele and {Sorriso-Valvo}, Luca and Woodham, Lloyd D and Panasenco, Olga and Velli, Marco and Carbone, Francesco and Zank, Gary P and Bruno, Roberto and Perrone, Denise and Nakanotani, Masaru and Shi, Chen and D'Amicis, Raffaella and De Marco, Rossana and Jagarlamudi, Vamsee K and Steinvall, Konrad and Marino, Raffaele and Adhikari, Laxman and Zhao, Lingling and Liang, Haoming and Tenerani, Anna and Laker, Ronan and Horbury, Timothy S and Bale, Stuart D and Pulupa, Marc and Malaspina, David M and MacDowall, Robert J and Goetz, Keith and {de Wit}, Thierry Dudok and Harvey, Peter R and Kasper, Justin C and Korreck, Kelly E and Larson, Davin and Case, Anthony W and Stevens, Michael L and Whittlesey, Phyllis and Livi, Roberto and Owen, Christopher J and Livi, Stefano and Louarn, Philippe and Antonucci, Ester and Romoli, Marco and O'Brien, Helen and Evans, Vincent and Angelini, Virginia},
+  year         = 2021,
+  journal      = {The Astrophysical Journal Letters},
+  volume       = 912,
+  number       = 2,
+  pages        = {L21},
+  publisher    = {{American Astronomical Society}},
+  issn         = {2041-8205},
+  doi          = {10.3847/2041-8213/abf7d1},
+  abstract     = {The first radial alignment between Parker Solar Probe and Solar Orbiter spacecraft is used to investigate the evolution of solar wind turbulence in the inner heliosphere. Assuming ballistic propagation, two 1.5 hr intervals are tentatively identified as providing measurements of the same plasma parcels traveling from 0.1 to 1 au. Using magnetic field measurements from both spacecraft, the properties of turbulence in the two intervals are assessed. Magnetic spectral density, flatness, and high-order moment scaling laws are calculated. The Hilbert\textendash Huang transform is additionally used to mitigate short sample and poor stationarity effects. Results show that the plasma evolves from a highly Alfv\'enic, less-developed turbulence state near the Sun, to fully developed and intermittent turbulence at 1 au. These observations provide strong evidence for the radial evolution of solar wind turbulence.},
+  annotation   = {13 citations (Crossref) [2022-03-09] 9 citations (Semantic Scholar/DOI) [2022-02-23]},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\QRT2R4PH\\Telloni et al_2021_Evolution of Solar Wind Turbulence from 0.pdf},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Woodham2021">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Woodham2021">4</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Enhanced Proton Parallel Temperature inside Patches of Switchbacks in the Inner Heliosphere</a></span>
+     (<span class="authors">L D Woodham, T S Horbury, L Matteini, T Woolley, R Laker, S D Bale, G Nicolaou, J E Stawarz, D Stansby, H Hietala, D E Larson, R Livi, J L Verniero, M McManus, J C Kasper, K E Korreck, N Raouafi, M Moncuquet, M P Pulupa</span>)
+     <span class="venueline">In: <span class="journal"><i>A&A</i>, 650</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1051/0004-6361/202039415">DOI: 10.1051/0004-6361/202039415</a>
+     </span>
+     <pre class="bibhidden">
+@article{Woodham2021,
+  title        = {Enhanced Proton Parallel Temperature inside Patches of Switchbacks in the Inner Heliosphere},
+  author       = {Woodham, L D and Horbury, T S and Matteini, L and Woolley, T and Laker, R and Bale, S D and Nicolaou, G and Stawarz, J E and Stansby, D and Hietala, H and Larson, D E and Livi, R and Verniero, J L and McManus, M and Kasper, J C and Korreck, K E and Raouafi, N and Moncuquet, M and Pulupa, M P},
+  year         = 2021,
+  journal      = {A\&A},
+  volume       = 650,
+  doi          = {10.1051/0004-6361/202039415},
+  annotation   = {18 citations (Crossref) [2022-03-09] 16 citations (Semantic Scholar/DOI) [2022-02-23]},
+}</pre>
+    </td>
+            </tr>
+            
+</table>
+<h3>2020</h3>
+<table cellspacing="0" class="yeartable">
+
+            <tr id="Horbury2020">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Horbury2020">3</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Sharp Alfvénic Impulses in the Near-Sun Solar Wind</a></span>
+     (<span class="authors">Timothy S Horbury, Thomas Woolley, Ronan Laker, Lorenzo Matteini, Jonathan Eastwood, Stuart D Bale, Marco Velli, Benjamin D G Chandran, Tai Phan, Nour E Raouafi, Keith Goetz, Peter R Harvey, Marc Pulupa, K G Klein, Thierry Dudok de Wit, Justin C Kasper, Kelly E Korreck, A W Case, Michael L Stevens, Phyllis Whittlesey, Davin Larson, Robert J MacDowall, David M Malaspina, Roberto Livi</span>)
+     <span class="venueline">In: <span class="journal"><i>The Astrophysical Journal Supplement Series</i>, 246, pp. 45</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.3847/1538-4365/ab5b15">DOI: 10.3847/1538-4365/ab5b15</a>
+     </span>
+     <pre class="bibhidden">
+@article{Horbury2020,
+  title        = {Sharp {{Alfv\'enic Impulses}} in the {{Near-Sun Solar Wind}}},
+  author       = {Horbury, Timothy S and Woolley, Thomas and Laker, Ronan and Matteini, Lorenzo and Eastwood, Jonathan and Bale, Stuart D and Velli, Marco and Chandran, Benjamin D G and Phan, Tai and Raouafi, Nour E and Goetz, Keith and Harvey, Peter R and Pulupa, Marc and Klein, K G and {de Wit}, Thierry Dudok and Kasper, Justin C and Korreck, Kelly E and Case, A W and Stevens, Michael L and Whittlesey, Phyllis and Larson, Davin and MacDowall, Robert J and Malaspina, David M and Livi, Roberto},
+  year         = 2020,
+  month        = {February},
+  journal      = {The Astrophysical Journal Supplement Series},
+  volume       = 246,
+  number       = 2,
+  pages        = 45,
+  publisher    = {{American Astronomical Society}},
+  doi          = {10.3847/1538-4365/ab5b15},
+  abstract     = {Measurements of the near-Sun solar wind by the Parker Solar Probe have revealed the presence of large numbers of discrete Alfv\'enic impulses with an anti-sunward sense of propagation. These are similar to those previously observed near 1 au, in high speed streams over the Sun's poles and at 60 solar radii. At 35 solar radii, however, they are typically shorter and sharper than seen elsewhere. In addition, these spikes occur in ``patches'' and there are also clear periods within the same stream when they do not occur; the timescale of these patches might be related to the rate at which the spacecraft magnetic footpoint tracks across the coronal hole from which the plasma originated. While the velocity fluctuations associated with these spikes are typically under 100 km s-1, due to the rather low Alfv\'en speeds in the streams observed by the spacecraft to date, these are still associated with large angular deflections of the magnetic field\textemdash and these deflections are not isotropic. These deflections do not appear to be related to the recently reported large-scale, pro-rotation solar wind flow. Estimates of the size and shape of the spikes reveal high aspect ratio flow-aligned structures with a transverse scale of {$\approx$}104 km. These events might be signatures of near-Sun impulsive reconnection events.},
+  keywords     = {ObsCite},
+  annotation   = {59 citations (Crossref) [2022-03-09] 58 citations (Semantic Scholar/DOI) [2022-02-23]},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\6GWEQKH5\\Horbury et al_2020_Sharp Alfvénic Impulses in the Near-Sun Solar Wind.pdf},
+}</pre>
+    </td>
+            </tr>
+            
+
+            <tr id="Woolley2020">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Woolley2020">2</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Proton Core Behaviour inside Magnetic Field Switchbacks</a></span>
+     (<span class="authors">Thomas Woolley, Lorenzo Matteini, Timothy S Horbury, Stuart D Bale, Lloyd D Woodham, Ronan Laker, Benjamin L Alterman, John W Bonnell, Anthony W Case, Justin C Kasper, Kristopher G Klein, Mihailo M Martinović, Michael Stevens</span>)
+     <span class="venueline">In: <span class="journal"><i>Monthly Notices of the Royal Astronomical Society</i>, 498, pp. 5524–5531</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1093/mnras/staa2770">DOI: 10.1093/mnras/staa2770</a>
+     </span>
+     <pre class="bibhidden">
+@article{Woolley2020,
+  title        = {Proton Core Behaviour inside Magnetic Field Switchbacks},
+  author       = {Woolley, Thomas and Matteini, Lorenzo and Horbury, Timothy S and Bale, Stuart D and Woodham, Lloyd D and Laker, Ronan and Alterman, Benjamin L and Bonnell, John W and Case, Anthony W and Kasper, Justin C and Klein, Kristopher G and Martinovi{\'c}, Mihailo M and Stevens, Michael},
+  year         = 2020,
+  journal      = {Monthly Notices of the Royal Astronomical Society},
+  volume       = 498,
+  number       = 4,
+  pages        = {5524--5531},
+  issn         = {0035-8711},
+  doi          = {10.1093/mnras/staa2770},
+  abstract     = {During Parker Solar Probe's first two orbits, there are widespread observations of rapid magnetic field reversals known as switchbacks. These switchbacks are extensively found in the near-Sun solar wind, appear to occur in patches, and have possible links to various phenomena such as magnetic reconnection near the solar surface. As switchbacks are associated with faster plasma flows, we questioned whether they are hotter than the background plasma and whether the microphysics inside a switchback is different to its surroundings. We have studied the reduced distribution functions from the Solar Probe Cup instrument and considered time periods with markedly large angular deflections to compare parallel temperatures inside and outside switchbacks. We have shown that the reduced distribution functions inside switchbacks are consistent with a rigid velocity space rotation of the background plasma. As such, we conclude that the proton core parallel temperature is very similar inside and outside of switchbacks, implying that a temperature\textendash velocity (T\textendash V) relationship does not hold for the proton core parallel temperature inside magnetic field switchbacks. We further conclude that switchbacks are consistent with Alfv\'enic pulses travelling along open magnetic field lines. The origin of these pulses, however, remains unknown. We also found that there is no obvious link between radial Poynting flux and kinetic energy enhancements suggesting that the radial Poynting flux is not important for the dynamics of switchbacks.},
+  keywords     = {switchbacks},
+  annotation   = {10 citations (Crossref) [2022-03-09] 11 citations (Semantic Scholar/DOI) [2022-02-23]},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\L896YIF9\\Woolley et al. - 2020 - Proton core behaviour inside magnetic field switchbacks(2).pdf},
+}</pre>
+    </td>
+            </tr>
+            
+</table>
+<h3>2019</h3>
+<table cellspacing="0" class="yeartable">
+
+            <tr id="Bale2019">
+             <td class="bibitemanchor" style="min-width: 2em;" align="right" valign="top">
+               [<a href="#Bale2019">1</a>]
+             </td>
+             <td class="bibitemtext" valign="top">     <span class="title"><a href="None">Highly Structured Slow Solar Wind Emerging from an Equatorial Coronal Hole</a></span>
+     (<span class="authors">S D Bale, S T Badman, J W Bonnell, T A Bowen, D Burgess, A W Case, C A Cattell, B D G Chandran, C C Chaston, C H K Chen, J F Drake, T Dudok de Wit, J P Eastwood, R E Ergun, W M Farrell, C Fong, K Goetz, M Goldstein, K A Goodrich, P R Harvey, T S Horbury, G G Howes, J C Kasper, P J Kellogg, J A Klimchuk, K E Korreck, V V Krasnoselskikh, S Krucker, R Laker, D E Larson, R J MacDowall, M Maksimovic, D M Malaspina, J Martinez-Oliveros, D J McComas, N Meyer-Vernet, M Moncuquet, F S Mozer, T D Phan, M Pulupa, N E Raouafi, C Salem, D Stansby, M Stevens, A Szabo, M Velli, T Woolley, J R Wygant</span>)
+     <span class="venueline">In: <span class="journal"><i>Nature</i>, 576, pp. 237–242</span>
+     <br>
+     <span class="buttonline">
+     <a class="button" style="cursor: pointer;" onClick="showBibHere(this);">bibtex</a>
+      <a class="button" href="https://dx.doi.org/10.1038/s41586-019-1818-7">DOI: 10.1038/s41586-019-1818-7</a>
+     </span>
+     <pre class="bibhidden">
+@article{Bale2019,
+  title        = {Highly Structured Slow Solar Wind Emerging from an Equatorial Coronal Hole},
+  author       = {Bale, S D and Badman, S T and Bonnell, J W and Bowen, T A and Burgess, D and Case, A W and Cattell, C A and Chandran, B D G and Chaston, C C and Chen, C H K and Drake, J F and {de Wit}, T Dudok and Eastwood, J P and Ergun, R E and Farrell, W M and Fong, C and Goetz, K and Goldstein, M and Goodrich, K A and Harvey, P R and Horbury, T S and Howes, G G and Kasper, J C and Kellogg, P J and Klimchuk, J A and Korreck, K E and Krasnoselskikh, V V and Krucker, S and Laker, R and Larson, D E and MacDowall, R J and Maksimovic, M and Malaspina, D M and {Martinez-Oliveros}, J and McComas, D J and {Meyer-Vernet}, N and Moncuquet, M and Mozer, F S and Phan, T D and Pulupa, M and Raouafi, N E and Salem, C and Stansby, D and Stevens, M and Szabo, A and Velli, M and Woolley, T and Wygant, J R},
+  year         = 2019,
+  journal      = {Nature},
+  volume       = 576,
+  number       = 7786,
+  pages        = {237--242},
+  publisher    = {{Springer US}},
+  issn         = 14764687,
+  doi          = {10.1038/s41586-019-1818-7},
+  abstract     = {During the solar minimum, when the Sun is at its least active, the solar wind1,2 is observed at high latitudes as a predominantly fast (more than 500 kilometres per second), highly Alfv\'enic rarefied stream of plasma originating from deep within coronal holes. Closer to the ecliptic plane, the solar wind is interspersed with a more variable slow wind3 of less than 500 kilometres per second. The precise origins of the slow wind streams are less certain4; theories and observations suggest that they may originate at the tips of helmet streamers5,6, from interchange reconnection near coronal hole boundaries7,8, or within coronal holes with highly diverging magnetic fields9,10. The heating mechanism required to drive the solar wind is also unresolved, although candidate mechanisms include Alfv\'en-wave turbulence11,12, heating by reconnection in nanoflares13, ion cyclotron wave heating14 and acceleration by thermal gradients1. At a distance of one astronomical unit, the wind is mixed and evolved, and therefore much of the diagnostic structure of these sources and processes has been lost. Here we present observations from the Parker Solar Probe15 at 36 to 54 solar radii that show evidence of slow Alfv\'enic solar wind emerging from a small equatorial coronal hole. The measured magnetic field exhibits patches of large, intermittent reversals that are associated with jets of plasma and enhanced Poynting flux and that are interspersed in a smoother and less turbulent flow with a near-radial magnetic field. Furthermore, plasma-wave measurements suggest the existence of electron and ion velocity-space micro-instabilities10,16 that are associated with plasma heating and thermalization processes. Our measurements suggest that there is an impulsive mechanism associated with solar-wind energization and that micro-instabilities play a part in heating, and we provide evidence that low-latitude coronal holes are a key source of the slow solar wind.},
+  annotation   = {215 citations (Crossref) [2022-03-09] 211 citations (Semantic Scholar/DOI) [2022-02-23]},
+  file         = {C\:\\Users\\Ronan\\Zotero\\storage\\N3P8G5DX\\Bale et al. - 2019 - Highly structured slow solar wind emerging from an equatorial coronal hole.pdf},
+}</pre>
+    </td>
+            </tr>
+            
+</table>
+
+ <div class="footnotecomment">
+  generated by <a href="https://github.com/t-wissmann/publistgen">publistgen.py</a>
+ </div>
+</div> <!-- end of publicationlist -->
+

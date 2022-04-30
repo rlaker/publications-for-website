@@ -1,0 +1,55 @@
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.publicationlist {
+    margin: 0px;
+}
+.publicationlist tr {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.publicationlist .title {
+    /* font-variant: small-caps; */
+    font-size: 1.0em;
+}
+
+.publicationlist .bibhidden {
+    display: none;
+    /*
+    transform: scaleY(0);
+    transition: all 0.25s ease-in;
+    overflow: hidden;
+    */
+}
+
+.publicationlist .bibvisible {
+    display: block;
+    /*
+    transform: scaleY(1);
+    transition: all 0.25s ease-in;
+    */
+}
+
+.publicationlist .title a {
+    /* font-weight: bold; */
+}
+
+.publicationlist tr {
+    background-color: transparent;
+    -webkit-transition: all 1s linear;
+}
+
+.publicationlist tr:target {
+    background-color: #ffa;
+    -webkit-transition: all 1s linear;
+}
+
+.publicationlist .footnotecomment {
+    font-size: 0.8em;
+    text-align: right;
+}
