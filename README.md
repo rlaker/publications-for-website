@@ -1,37 +1,12 @@
-# publistgen: generate static publication lists from bibtex files
+Forked from [publistgen](https://github.com/t-wissmann/publistgen) and adapted for my needs.
 
-The `publistgen.py` script generates html bibliography lists from bibtex-files.
-It uses the python library [biblib](https://github.com/aclements/biblib) for
-parsing bib files. It is the only reliable bibtex parser I have used so far.
+For Python 3.10 you will need to change `collections.Iterable` to `collections.abc.Iterable` (see this [issue](https://github.com/nerdocs/pydifact/issues/46)).
 
-The script was written for [my own publication
-list](https://thorsten-wissmann.de/publications.html) but I got several requests to make it publicly available.
+Changes are:
+1. Use logging instead of print, so that I can debug easier
+2. Make the module importable
+3. Make author list expandable
+4. moved css and js files out of the python script
+5. Add a flag to escape Jekyll liquid injection for doubly curly braces ("-e")
+6. Added a flag to include yaml at the start of the file ("-yaml")
 
-## Requirements
-
-* Python 3
-* [biblib](https://github.com/aclements/biblib) (Either globally or cloned to the subdirectory `biblib/`)
-
-## Installation
-
-Either install via `python setup.py install` or by simply cloning the [biblib](https://github.com/aclements/biblib) library
-to the `biblib/` subdirectory.
-
-## Usage
-
-Run
-```bash
-/path/to/publistgen.py bibfile.bib > publications.html
-```
-to generate `publications.html` which can be embedded in another html file. If
-you want to customize the output e.g. by linking to homepages of authors, you
-can overwrite default settings in a `publist.py` config file:
-```python
-# a dict mapping author names (in utf8) to their homepage url
-author_homepages = {
-    'Thorsten Wißmann': "http://www8.informatik.uni-erlangen.de/thorsten",
-}
-```
-
-This configuration file is a python file that is evaluated and thus can
-customize all functions that exist publistgen.py.
