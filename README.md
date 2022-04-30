@@ -7,11 +7,6 @@ Changes are:
 2. Make the module importable
 3. Make author list expandable
 4. moved css and js files out of the python script
-
-For use with Jekyll I also had to turn off Liquid injection for this page like this:
-```
-{% raw %}
-the html goes here
-{% endraw %}
-```
+5. Add a flag to escape Jekyll liquid injection for doubly curly braces ("-e")
+6. Added a flag to include yaml at the start of the file ("-yaml")
 
